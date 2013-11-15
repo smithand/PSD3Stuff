@@ -44,4 +44,8 @@ public class StudentCourses {
 	public void setTotal(String total) {
 		this.total = total;
 	}
+	
+	public String toString() {
+		return course + "," + id + "," + cw + "," + exam + "," + total;
+	}
 }

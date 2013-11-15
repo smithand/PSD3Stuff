@@ -1,4 +1,5 @@
 public class Value {
+	
 	private String id;
 	private String cw;
 	private String exam;
@@ -49,6 +50,6 @@ public class Value {
 		this.total = total;
 	}
 	public String toString() {
-		return ("coursework mark: " + getCw() + ", exam mark: " + getExam() + ", total: " + getTotal());
+		return getId() + "," + getCw() + "," + getExam() + "," + getTotal();
 	}
 }
