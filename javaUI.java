@@ -11,7 +11,7 @@ import java.util.Hashtable;
 
 
 
-public class javaUI {
+public class javaUI implements login {
 
 	public static void main(String[] args){
 		// Creates a new scanner for input
@@ -21,28 +21,37 @@ public class javaUI {
 		
 		loginTest loginTest = new loginTest();
 
+		// user logs in to the system
+
 		System.out.println("Login to the system: \nIf administrator, use username admin\nIf tutor, use username tutor\npassword: 1234\n");
                 System.out.print("Please enter your username: ");
+
                 String username = input.nextLine();
                 System.out.print("Please enter your password: ");
                 String password = input.nextLine();
-                loginTest.userLogin(username, password);
-		
-		// Print out a menu to the screen.
-		System.out.println("Sprint Week 1");
-		System.out.println("\nChoose operation:\n1.CSV Export\n2. Attendance Monitoring\n");
-		
-		// take in the users input
-		choice = input.next();
-		
-		// if the user types 1 or 2, call the methods CSVExport() or AttendanceMonitor() respectively
-		if(choice.equals("1")){
-			csvExportStudent();
-		}
-		else if(choice.equals("2")){
-			attendanceCheck();
-		}
+                if (loginTest.userLogin(username, password)){
 
+			// Print out a menu to the screen.
+			System.out.println("Sprint Week 1");
+			System.out.println("\nChoose operation:\n1.CSV Export\n2. Attendance Monitoring\n");
+			
+			// take in the users input
+			choice = input.next();
+		
+			// if the user types 1 or 2, call the methods CSVExport() or AttendanceMonitor() respectively
+			if(choice.equals("1") && username.equals("admin")){
+				csvExportStudent();
+			}
+			else if(choice.equals("2") && username.equals("tutor")){
+				attendanceCheck();
+			}
+			else if(choice.equals("1") && (!username.equals("admin"))){
+				System.out.print("Insufficient user permission to carry out operation\n");
+			}	
+			else if(choice.equals("2") && (!username.equals("tutor"))){
+				System.out.print("Insufficient user permission to carry out operation\n");
+			}
+		}
 		
 
 	}
@@ -155,7 +164,6 @@ public class javaUI {
 			bf.getTable(studentName + ".csv");
 			System.out.println("Enter student name: (type exit to quit)");
 			
-			
 		}
 	}
 
@@ -233,9 +241,8 @@ public class javaUI {
                         e.printStackTrace();
                 }
         }
-        
-        
-        public boolean userLogin(String username, String password){
+
+	public boolean userLogin(String username, String password){
                 String adminUser = "admin";
                 String tutorUser = "tutor";
                 String pass = "1234";
@@ -250,7 +257,6 @@ public class javaUI {
                 else{System.out.print("Incorrect username\n");
                         return false;}                                
         }
-        
 
 
 }
