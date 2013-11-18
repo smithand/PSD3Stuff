@@ -22,9 +22,10 @@ public class loginTest implements login {
 
 	
 	public boolean userLogin (String username, String password){
-		String uName = "qwerty";
+		String adminUser = "admin";
+		String studentUser = "student";
 		String pass = "1234";
-		if (username.equals(uName)){
+		if (username.equals(adminUser) || username.equals(studentUser){
 			if (password.equals(pass)){
 				System.out.print("Successful login\n");
 				return true;
