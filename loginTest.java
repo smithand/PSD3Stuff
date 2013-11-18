@@ -25,7 +25,7 @@ public class loginTest implements login {
 		String adminUser = "admin";
 		String tutorUser = "tutor";
 		String pass = "1234";
-		if (username.equals(adminUser) || username.equals(tutorUser){
+		if (username.equals(adminUser) || username.equals(tutorUser)){
 			if (password.equals(pass)){
 				System.out.print("Successful login\n");
 				return true;
