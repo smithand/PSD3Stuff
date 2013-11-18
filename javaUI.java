@@ -18,6 +18,16 @@ public class javaUI {
 		Scanner input = new Scanner(System.in);
 		// choice will be used to determine what the user chooses
 		String choice;
+		
+		loginTest loginTest = new loginTest();
+
+		System.out.println("Login to the system: \nIf administrator, use username admin\nIf tutor, use username tutor\npassword: 1234\n");
+                System.out.print("Please enter your username: ");
+                String username = input.nextLine();
+                System.out.print("Please enter your password: ");
+                String password = input.nextLine();
+                loginTest.userLogin(username, password);
+		
 		// Print out a menu to the screen.
 		System.out.println("Sprint Week 1");
 		System.out.println("\nChoose operation:\n1.CSV Export\n2. Attendance Monitoring\n");
@@ -223,6 +233,24 @@ public class javaUI {
                         e.printStackTrace();
                 }
         }
+        
+        
+        public boolean userLogin(String username, String password){
+                String adminUser = "admin";
+                String tutorUser = "tutor";
+                String pass = "1234";
+                if (username.equals(adminUser) || username.equals(tutorUser)){
+                        if (password.equals(pass)){
+                                System.out.print("Successful login\n");
+                                return true;
+                        }
+                        else {System.out.print("Incorrect password\n");
+                                return false;}
+                }
+                else{System.out.print("Incorrect username\n");
+                        return false;}                                
+        }
+        
 
 
 }
