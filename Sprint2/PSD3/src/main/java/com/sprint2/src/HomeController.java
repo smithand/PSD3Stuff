@@ -33,6 +33,12 @@ public class HomeController {
 		return "sessionDetail";
 	}
 	
+
+@RequestMapping(value = "/viewDay", method = RequestMethod.GET)
+	public ModelAndView dayTimetable(ModelMap model){
+		return new ModelAndView( "day");
+		
+	}
 	
 	
 	
