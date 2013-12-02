@@ -1,0 +1,13 @@
+Technology Prototype User Guide:
+1. Firstly, Install Spring ToolSuite in order to run the prototype.
+The prototype was created in Toolsuite and can only be operated in it
+
+2.Open the project containing the prototype
+
+3.Right Click on Project Folder->Select 'Run as'-> Run 'On Server'
+
+4. A dialog box will appear: Click finish
+
+5. In the next dialog box click: okay
+
+6. The Project should run
