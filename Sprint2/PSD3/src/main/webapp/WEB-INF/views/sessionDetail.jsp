@@ -9,7 +9,9 @@
 <body>  
 <h2>  
 Submitted Session Information</h2>  
+<a href = "/src/">Session</a></a><a href = "viewWeek">Week View</a>   
 <table border="1"><tbody>  
+
 <tr>     <td>Session Name </td>      <td>${name}</td>   </tr> 
 <tr>     <td>Session Type </td>      <td>${type}</td>   </tr> 
 <tr>     <td>Session Date </td>      <td>${date}</td>   </tr>   

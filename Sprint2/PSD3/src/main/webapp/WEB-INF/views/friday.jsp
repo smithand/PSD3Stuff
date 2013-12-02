@@ -8,7 +8,8 @@
    </head>  
 <body>  
 <h2>  
-Friday Timetable</h2>  
+Friday Timetable</h2> 
+<a href = "/src/">Session</a></a><a href = "viewWeek">Week View</a>     
 <table border="1"><tbody>  
 <tr>     <td>9-10</td>      <td></td>   </tr>   
 <tr>     <td>10-11</td>      <td>IS3</td>     </tr>  

@@ -9,6 +9,7 @@
 <body>  
 <h2>  
 Week Timetable</h2>  
+<a href = "/src/">Session</a></a><a href = "viewWeek">Week View</a>   
 <table border="1"><tbody>  
 <tr>	 <td>Time</td>		<td><a href = "viewMonday">Monday</a></td>    <td><a href = "viewTuesday">Tuesday</a></td>    <td><a href = "viewWednesday">Wednesday</a></td>    <td><a href = "viewThursday">Thursday</a></td>    <td><a href = "viewFriday">Friday</a></td>    </tr>
 <tr>     <td>9-10</td>      <td>PSD3</td>   				<td></td>    					<td></td>    	<td></td>    							<td></td>    </tr>   

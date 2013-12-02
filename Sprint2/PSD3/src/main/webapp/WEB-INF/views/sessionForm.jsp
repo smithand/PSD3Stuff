@@ -10,7 +10,8 @@
  <body>  
 <h2>  
 Session Data Form</h2>  
-<form:form action="/src/addSession" method="POST">        
+<form:form action="/src/addSession" method="POST">   
+<a href = "/src/">Session</a></a><a href = "viewWeek">Week View</a>   
 <table><tbody>  
 <tr>        <td><form:label path="name">Session Name:</form:label></td>      <td><form:input path="name"></form:input></td>    </tr>  
 <tr>        <td><form:label path="type">Session Type:</form:label></td>      <td><form:input path="type"></form:input></td>    </tr>  

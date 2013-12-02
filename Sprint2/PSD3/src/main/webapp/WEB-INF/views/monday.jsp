@@ -9,7 +9,9 @@
 <body>  
 <h2>  
 Monday Timetable</h2>  
+<a href = "/src/">Session</a></a><a href = "viewWeek">Week View</a>   
 <table border="1"><tbody>  
+
 <tr>     <td>9-10</td>      <td>PSD3</td>   </tr>   
 <tr>     <td>10-11</td>      <td> </td>     </tr>  
 <tr>      <td>11-12</td>       <td> </td> </tr>
