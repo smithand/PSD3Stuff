@@ -1,0 +1,31 @@
+ Spring MVC Web Framework
+
+The second Sprint week within this semester helped increase overall understanding of the Spring framework and it's capabilities. It's main purpose is to provide a MVC that allows us to link code such as Java, Python and Ruby with a web-based controller to see how a website will look if it incorporates this code.
+
+We utilized the tools to gain clarification on 2 User Stories which were deemed unclear. To aid our development, we used the 'Spring ToolSuite?' which we agreed was very useful. It provides an interface similar to an IDE we were already familiar with(Eclipse) which meant the familiarity was helpful, we didn't need much guidance to operate the suite and could focus on learning the actual framework itself.
+
+    Our overall understanding has increased and we might use this framework again due to our increased knowledge, sp
+    
+    
+
+merits of a web-based client-server system
+
+
+cross-platform compatibility The main merit for a WBCSS is the cross-platform compatibility that it provides for a system. Web applications typically have a lot more range of devices as it does not usually require any stand-alone installation requirements or needs. The user of the system can run it in an environment that they are familiar with which eliminates any hesitance they might have toward a stand-alone application.
+
+Better Manageability Web based solutions have the benefit of not requiring the extensive requirements of stand-alone applications - this makes updating and maintaining the data a lot easier and less stressful on the system.
+
+Secure live data Live data can be a tough piece of data to implement in a complex off-line solution, In web based systems processes can be minimized reducing the need to move data around and keep it within the central application.
+
+Data Security Web -based systems stop the user needing access to the back-end and data servers thus providing more security.
+
+Overall, we find that a Web-cased Client-Server system offers a lot of streamlining in comparison to a traditional system, and we would happily use it again.
+
+evaluation of non-functional requirements
+
+
+Non-function requirements of this type of system are of plenty measure. 
+It is important to evaluate how long it takes for the server to react to user communication with the interface. 
+If it takes too long, it will be unsatisfactory. 
+Alongside this, another non-functional requirement that should be kept in mind is how many devices/browsers should support the system. 
+The range of users could be pretty large and it is unlikely that they will all use the same method of accessing the system, as developers - we must compensate for this. The evaluation of requirements such as these is really important because the technological requirements go hand-in-hand with the non-functional requirements - especially for the user, it is just as important to look at the context of the system alongside the implementation.
