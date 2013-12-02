@@ -1,0 +1,26 @@
+ Sprint Review We have created Trac tickets to go alongside our Sprint Review document, they have correct formatting so it is easy to distinguish between them and the requirements.
+
+Sprint: (Initial Sprint) Week 1
+
+The first Sprint week's main objectives were to: explore uncertainty in several user requirements, by means of spike prototypes and get each team working collaboratively on implementation activities, using appropriate tools and techniques. We had a starting problem before we could begin; Faisal is a part-time student at the University and thus he could not take part in the Sprint for the most part, he helped where he could however.
+The Sprint had us looking at 2 unclear User Stories that we identified from the spec as problematic. Looking at these, we set out on making some implementation prototypes to clear up any issues we had. We used technology we were familiar with to solely focus on gaining clarification from the blunt User Stories. The prototypes were completed within the 5 days, however, they did not totally meet the conditions of satisfaction set-out. For the first User Story: 'CSV Export' -
+
+    we did not accommodate for: The Admin should be able to export all student attendance records for a single course (course selected by admin).
+
+
+This was something we wanted to clarify but time-constraints meant we had to leave it behind. The other conditions were carried out satisfactory, however.
+The 'Attendance Monitoring' story was carried out to satisfactory degree, all 3 conditions of satisfaction were correctly implemented. We had our prototypes assessed by another team who also done the Sprint, we stored their valuable feedback as trac tickets so when we focus on creating the real system we can easily see what needs to be done at this point. For future implementation Sprints, we will designate more time to the actual coding instead of surrounding documentation.
+
+Sprint: (Technology Sprint) Week 2
+
+The second sprint was much more different in nature, rather than focusing on implementation of a system, it focused on one of the possible technologies we could use to implement the system. The technology was a web framework to show the code we had made in a web-based environment called 'Spring'. This Sprint would have to take a different approach. We had a starting problem before we could begin; Faisal is a part-time student at the University and thus he could not take part in the Sprint for the most part, he helped where he could however.
+
+To begin this sprint, we firstly done some research on the technology suggested to us by the Client. This involved each team member doing some tutorials on the framework which were provided on the official website for us. We initially had some problems with the tutorials because the computers in the lab had something already existent on Port:8080 - The default port used by tomcat for the Spring framework. This basically eliminated a whole day of work and we decided to focus on getting some code together for the prototypes instead of getting stuck by the MVC problems.
+
+This did cause us to lose a good chunk of time, unlike the first Sprint where we were finished by the Friday, we finished our prototypes on the Sunday because we had to do the Spring technology on one of the Team member's laptop, as everyone else was still encountering problems. We made it in the end however.
+
+If we were doing another technology Sprint, we would first do some research before hand, so we knew exactly what we were up against. We would also try and get the coding work done concurrently with the technology research so that no time is wasted - which is important for Agile prototype development, time must be spent correctly and efficiently.
+
+Conclusion
+
+The Sprints we done this semester have been very useful to enhance our learning of developing in a real-time environment, we will be utilizing sprints in our second semester implementation of the final system because we feel it sped up the process and forced us to face what we had to do rather than push off tasks. We look forward to investigating the other Sprints we are going to plan out for next semester.
