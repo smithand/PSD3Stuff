@@ -1,8 +1,8 @@
 package com.sprint2.src;
 
 
-import org.springframework.stereotype.Controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.ui.ModelMap;
@@ -16,13 +16,15 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 	
 	
-	@RequestMapping(value = "/session", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView session(){
 		return new ModelAndView("sessionForm", "command", new Session());
 	}
 	
 	@RequestMapping(value = "/addSession", method = RequestMethod.POST)
 	public String addSession(@ModelAttribute("SpringWeb")Session session, ModelMap model){
+		model.addAttribute("name", session.getName());
+		model.addAttribute("type", session.getType());
 		model.addAttribute("date", session.getDate());
 		model.addAttribute("duration", session.getDuration());
 		model.addAttribute("repeatFrequency", session.getRepeatFrequency());
@@ -33,23 +35,45 @@ public class HomeController {
 		return "sessionDetail";
 	}
 	
-	
-	
-	
-	/**private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-	*
-*****@RequestMapping(value = "/", method = RequestMethod.GET)
-	*public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	@RequestMapping(value = "/viewMonday", method = RequestMethod.GET)
+	public ModelAndView mondayTimetable(ModelMap model){
+		return new ModelAndView( "monday");
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
-		return "home";
 	}
-	*/
+	
+	@RequestMapping(value = "/viewTuesday", method = RequestMethod.GET)
+	public ModelAndView tuesdayTimetable(ModelMap model){
+		return new ModelAndView( "tuesday");
+		
+	}
+	
+	@RequestMapping(value = "/viewWednesday", method = RequestMethod.GET)
+	public ModelAndView wednesdayTimetable(ModelMap model){
+		return new ModelAndView( "wednesday");
+		
+	}
+	
+	@RequestMapping(value = "/viewThursday", method = RequestMethod.GET)
+	public ModelAndView thursdayTimetable(ModelMap model){
+		return new ModelAndView( "thursday");
+		
+	}
+	
+	@RequestMapping(value = "/viewFriday", method = RequestMethod.GET)
+	public ModelAndView fridayTimetable(ModelMap model){
+		return new ModelAndView( "friday");
+		
+	}
+	
+	
+	@RequestMapping(value = "/viewWeek", method = RequestMethod.GET)
+	public ModelAndView weekTimetable(ModelMap model){
+		return new ModelAndView( "week");
+		
+	}
+	
+	
+	
+	
+
 }

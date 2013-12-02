@@ -12,6 +12,8 @@
 Session Data Form</h2>  
 <form:form action="/src/addSession" method="POST">        
 <table><tbody>  
+<tr>        <td><form:label path="name">Session Name:</form:label></td>      <td><form:input path="name"></form:input></td>    </tr>  
+<tr>        <td><form:label path="type">Session Type:</form:label></td>      <td><form:input path="type"></form:input></td>    </tr>  
 <tr>        <td><form:label path="date">Session Date  (mm/dd/yyyy hh:mm):</form:label></td>      <td><form:input path="date"></form:input></td>    </tr>  
 <tr>       <td><form:label path="duration">Session Duration (hh:mm:ss):</form:label></td>       <td><form:input path="duration"></form:input></td>     </tr>  
 <tr>      <td><form:label path="repeatFrequency">Session Repeat Frequency :</form:label></td>     <td><form:input path="repeatFrequency"></form:input></td>    </tr>  

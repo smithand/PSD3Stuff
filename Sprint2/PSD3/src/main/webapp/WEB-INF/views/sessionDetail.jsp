@@ -10,6 +10,8 @@
 <h2>  
 Submitted Session Information</h2>  
 <table border="1"><tbody>  
+<tr>     <td>Session Name </td>      <td>${name}</td>   </tr> 
+<tr>     <td>Session Type </td>      <td>${type}</td>   </tr> 
 <tr>     <td>Session Date </td>      <td>${date}</td>   </tr>   
 <tr>     <td>Session Duration</td>      <td>${duration}</td>     </tr>  
 <tr>      <td>Session Repeat Frequency</td>       <td>${repeatFrequency}</td> </tr>
