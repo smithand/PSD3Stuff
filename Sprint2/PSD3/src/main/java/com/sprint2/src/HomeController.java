@@ -35,18 +35,14 @@ public class HomeController {
 		return "sessionDetail";
 	}
 	
-<<<<<<< HEAD
+
 	@RequestMapping(value = "/viewMonday", method = RequestMethod.GET)
 	public ModelAndView mondayTimetable(ModelMap model){
 		return new ModelAndView( "monday");
-=======
-
-@RequestMapping(value = "/viewDay", method = RequestMethod.GET)
-	public ModelAndView dayTimetable(ModelMap model){
-		return new ModelAndView( "day");
->>>>>>> a778084c3edfffe51231c009246e3ea86b7a4041
-		
 	}
+
+
+
 	
 	@RequestMapping(value = "/viewTuesday", method = RequestMethod.GET)
 	public ModelAndView tuesdayTimetable(ModelMap model){
