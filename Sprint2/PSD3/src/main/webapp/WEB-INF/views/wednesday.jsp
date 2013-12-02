@@ -10,13 +10,13 @@
 <h2>  
 Wednesday Timetable</h2>  
 <table border="1"><tbody>  
-<tr>     <td>9-10</td>      <td>PSD3</td>   </tr>   
-<tr>     <td>10-11</td>      <td> </td>     </tr>  
-<tr>      <td>11-12</td>       <td> </td> </tr>
+<tr>     <td>9-10</td>      <td></td>   </tr>   
+<tr>     <td>10-11</td>      <td>AP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>     </tr>  
+<tr>      <td>11-12</td>       <td>AP3</td> </tr>
 <tr>     <td>12-1</td>      <td> </td>     </tr>  
-<tr>      <td>1-2</td>      <td>Celtic Civilisation</td>     </tr>  
-<tr>     <td>2-3</td>      <td>PSD3</td>     </tr>  
-<tr>      <td>3-4</td>      <td>PSD3</td>     </tr>
+<tr>      <td>1-2</td>      <td></td>     </tr>  
+<tr>     <td>2-3</td>      <td>AP3</td>     </tr>  
+<tr>      <td>3-4</td>      <td></td>     </tr>
 <tr>	 <td>4-5</td>	   <td> </td>	</tr> 
 </tbody></table>  
 </body>  
