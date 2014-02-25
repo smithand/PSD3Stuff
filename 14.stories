@@ -1,0 +1,5 @@
+Scenario : lecturer wants to see the details of a session
+Given login details
+When loged in and connected to the computer system
+And the timetable for a session is selected 
+Then the timetable of the session are shown
